@@ -9,12 +9,12 @@ function Login() {
     }
     return (
         <div>
-            <h1>Login Form</h1>
+            <h1>Вход в аккаунт</h1>
             <form onSubmit={handleFormSubmit}>
-                <label>Username:
+                <label>Имя пользователя:
                     <input type="text" name='username' />
                 </label>
-                <label>Password:
+                <label>Пароль:
                     <input type='password' name='password' />
                 </label>
                 <button type='submit'>Login</button>
