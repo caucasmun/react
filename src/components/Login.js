@@ -17,7 +17,7 @@ function Login() {
                 <label>Пароль:
                     <input type='password' name='password' />
                 </label>
-                <button type='submit'>Login</button>
+                <button type='submit'>Вход</button>
             </form>             
         </div>
     )
